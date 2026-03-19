@@ -1,8 +1,12 @@
 {
-  "name": "discord-bot",
+  "name": "discord-vc-bot",
   "version": "1.0.0",
+  "description": "24/7 VC stay bot",
   "main": "index.js",
   "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "discord.js": "^14.14.1",
     "@discordjs/voice": "^0.16.0"
